@@ -11,13 +11,3 @@
     display: inline-block;
     text-transform: capitalize;
     }
-    /* .headerlist a :hover { */
-        /* background-color: #EEA539; */
-        color:white;
-        text-decoration: none;
-
-    }
-    .headerlink :hover{
-        text-decoration: none;
-        color: #fff;
-    }
