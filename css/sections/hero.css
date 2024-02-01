@@ -1,0 +1,16 @@
+.hero{
+    display:flex;
+    width:45%;
+    margin:1em 2em;
+    
+}
+h1{
+    font-size: 80px;
+}
+.hero-searchbar{
+    padding: 2em 4em;
+}
+.hero-search-icon{
+    border:5px solid black;
+    width: 60%;
+}

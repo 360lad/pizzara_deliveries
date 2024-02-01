@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 
 }
 .headerlist li{
