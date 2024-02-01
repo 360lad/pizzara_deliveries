@@ -1,0 +1,23 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.headerlist li{
+    list-style-type: none;
+    margin-right: 2em;
+    display: inline-block;
+    text-transform: capitalize;
+    }
+    /* .headerlist a :hover { */
+        /* background-color: #EEA539; */
+        color:white;
+        text-decoration: none;
+
+    }
+    .headerlink :hover{
+        text-decoration: none;
+        color: #fff;
+    }
