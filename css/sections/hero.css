@@ -2,7 +2,7 @@
     display:flex;
     width:45%;
     margin:1em 2em;
-    
+
 }
 h1{
     font-size: 80px;
@@ -10,7 +10,12 @@ h1{
 .hero-searchbar{
     padding: 2em 4em;
 }
-.hero-search-icon{
-    border:5px solid black;
-    width: 60%;
+
+.searchbar-container{
+    display: flex;
+    border:1px solid grey;
+    width: 50%;
 }
+.hero-search-icon{
+    width:40px;
+    }
