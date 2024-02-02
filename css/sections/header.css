@@ -8,10 +8,17 @@
     margin-right: 2em;
 
 }
-.central-header ul li a{
+.central-header ul li {
     list-style-type: none;
     margin-right: 2em;
     display: inline-block;
     text-transform: capitalize;
-    text-decoration: none;
     }
+   .central-header ul li a{
+        text-decoration: none;
+        color:black;
+    }
+ a :hover{
+    background-color: #eea539;
+
+}

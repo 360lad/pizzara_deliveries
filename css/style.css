@@ -9,4 +9,8 @@
  margin:0px;
  box-sizing: border-box;
 }
+.container{
+    margin:1em;
+    padding:2em;
+}
 
