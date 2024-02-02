@@ -1,11 +1,9 @@
-
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 1em;
 
 }
 .central-header ul li {
@@ -18,7 +16,19 @@
         text-decoration: none;
         color:black;
     }
- a :hover{
+    .central-header ul li:hover{
+
     background-color: #eea539;
+    padding:1em;
 
 }
+
+/* Media Queries */
+
+@media screen and (max-width:455px) {
+    .central-header__navlist{
+        display:none;
+    }
+
+    }
+    

@@ -5,7 +5,7 @@
 
 }
 h1{
-    font-size: 80px;
+    font-size: 60px;
 }
 .hero-searchbar{
     padding: 2em 4em;
@@ -22,5 +22,8 @@ h1{
     .btn{
         padding-left: 50px;
         padding-bottom:50px ;
+    }
+    .hero-left__orange{
+        color:#eea539;
     }
     

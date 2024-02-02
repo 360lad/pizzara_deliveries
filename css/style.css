@@ -8,6 +8,7 @@
  padding: 0px;
  margin:0px;
  box-sizing: border-box;
+ line-height: 60px;
 }
 .container{
     margin:1em;
