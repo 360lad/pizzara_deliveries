@@ -8,22 +8,35 @@ h1{
     font-size: 60px;
 }
 .hero-searchbar{
-    padding: 2em 4em;
+    padding: .8em 4em;
+    border:none;
+    outline: none;
+    
 }
 
 .searchbar-container{
     display: flex;
     border:1px solid grey;
-    width: 50%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 72%;
+    align-items: center;
+    padding: .5em 2.8em;
 }
-.hero-search-icon{
-    width:40px;
-    }
+
     .btn{
-        padding-left: 50px;
-        padding-bottom:50px ;
+        padding: 19px 30px;
+        background-color: #000;
+        color:#fff;
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
     .hero-left__orange{
         color:#eea539;
     }
+    .hero-right__big-pizza{
+        margin: 6em;
+    }
+    
     
