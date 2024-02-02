@@ -8,9 +8,10 @@
     margin-right: 2em;
 
 }
-.headerlist li{
+.central-header ul li a{
     list-style-type: none;
     margin-right: 2em;
     display: inline-block;
     text-transform: capitalize;
+    text-decoration: none;
     }
