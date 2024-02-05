@@ -35,8 +35,27 @@ h1{
     .hero-left__orange{
         color:#eea539;
     }
+
+    .hero-left__images{
+        /* display:flex; */
+        width:50%;
+    }
+    .hero-left__images--container{
+        background-color: #f4f7fb;
+        display: flex;
+        padding:1em;
+        margin:2em;
+    }
+    .hero-left__pics{
+        /* display:flex; */
+        margin: 3em;
+    }
+    .hero-left__images img{
+        background-color: #000;
+    }
+    /* hero right */
+  
     .hero-right__big-pizza{
         margin: 6em;
-    }
-    
+        }
     
