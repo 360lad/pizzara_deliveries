@@ -75,7 +75,9 @@ text-align: center;
 
 .img__background{
   background-color: #000;
+ 
 }
 .why-us__content-imagescap{
-
+  display: flex;
+  background-color: #f4f7fb;
 }
