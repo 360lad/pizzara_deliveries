@@ -91,3 +91,15 @@ text-align: center;
 .help p{
   text-align: center;
 }
+.help__contacts{
+  /* display: flex; */
+  background-color: #f4f7fb;
+}
+
+.help__info{
+display: flex;
+justify-content:space-around;
+margin: 2em;
+padding:2em 6em;
+align-content: center;
+}
