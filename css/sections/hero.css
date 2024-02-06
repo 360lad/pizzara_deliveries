@@ -32,21 +32,29 @@ h1{
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
+    .hero-left{
+
+    }
     .hero-left__orange{
         color:#eea539;
     }
 
     .hero-left__images{
-        /* display:flex; */
-        width:50%;
+        display:flex;
+        /* width:50%; */
+        /* text-align: center; */
+    }
+    .hero-left__images div{
+        background-color: #f4f7fb;
+
     }
     .hero-left__images--container{
-        background-color: #f4f7fb;
+        /* background-color: #f4f7fb; */
         display: flex;
-        padding:1em;
-        margin:2em;
+        /* padding:1em; */
+        margin-top:1em;
     }
-    .hero-left__pics{
+    .hero-left__pics1{
         /* display:flex; */
         margin: 3em;
     }
@@ -56,6 +64,12 @@ h1{
     /* hero right */
   
     .hero-right__big-pizza{
-        margin: 6em;
-        }
+        margin-left: 10em;
+    }
+    .hero-right__images{
+        margin-left: 6em;
+        display: inline-block;
+    }
     
+
+    /* BODY */
