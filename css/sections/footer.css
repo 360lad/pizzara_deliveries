@@ -1,0 +1,10 @@
+
+
+.footer-container{
+    background-color: #000;
+    display: flex;
+}
+
+.footer-container p{
+    color:white;
+}
