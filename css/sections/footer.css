@@ -3,6 +3,8 @@
 .footer-container{
     background-color: #000;
     display: flex;
+    justify-content: space-between;
+    padding: 2em;
 }
 
 .footer-container p{
@@ -11,7 +13,7 @@
 
 .footer__links{
     color:#fff;
-    padding: 3em;
+    padding: 2em;
 }
 
 .footer__links ul li{
@@ -49,4 +51,11 @@
     padding: 1.3em 4em;
     border:none;
     outline: none;
+  }
+
+  .pizzara__logoft{
+    margin-top: 2em;
+  }
+  .footer__subscription{
+    margin-top: 2em;
   }
