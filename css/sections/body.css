@@ -75,9 +75,19 @@ text-align: center;
 
 .img__background{
   background-color: #000;
+  /* display: flex; */
  
 }
 .why-us__content-imagescap{
-  display: flex;
+  /* display: flex; */
   background-color: #f4f7fb;
+}
+
+.why-us--pic{
+  display: flex;
+  padding: 2em;
+}
+
+.help p{
+  text-align: center;
 }
