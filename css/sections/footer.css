@@ -59,3 +59,8 @@
   .footer__subscription{
     margin-top: 2em;
   }
+  @media screen and (max-width:814px) {
+    footer{
+        flex-wrap: wrap;
+    }
+  }
