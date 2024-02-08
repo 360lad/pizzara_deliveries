@@ -25,10 +25,16 @@
 
 /* Media Queries */
 
-@media screen and (max-width:455px) {
+@media screen and (max-width:800px) {
     .central-header__navlist{
         display:none;
     }
+    .header{
+        display: flex;
+        margin-right: 1em;
+        width:100%;
+    }
+
 
     }
     

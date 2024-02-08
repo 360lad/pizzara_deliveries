@@ -1,105 +1,115 @@
-
-
-
-.menu__head{
-    text-align: center;
+.menu__head {
+  text-align: center;
 }
-.menu__list{
+.menu__list {
   list-style-type: none;
-border-bottom:10px solid gray;
-text-align: center;
+  border-bottom: 10px solid gray;
+  text-align: center;
 }
-.menu__list li{
-    display: inline-block;
-    padding-right:4em;
-    padding-left: 4em;
-    text-align: center;
-    /* border-bottom:10px solid gray; */
-
+.menu__list li {
+  display: inline-block;
+  padding-right: 4em;
+  padding-left: 4em;
+  text-align: center;
+  /* border-bottom:10px solid gray; */
 }
-.menu__list  li:hover{
+.menu__list li:hover {
   /* background-color:#eea539; */
-  border-bottom:10px solid #eea539;
+  border-bottom: 10px solid #eea539;
   color: #eea539;
 }
 
-.menu__cart{
+.menu__cart {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-
-.menu__cart--img1 img{
-  width:200px;
-
+.menu__cart--img1 img {
+  width: 200px;
 }
 
-.menu__cart--img1{
+.menu__cart--img1 {
   background-color: #f4f7fb;
-  padding:1em 2em;
+  padding: 1em 2em;
 }
-.cart__btn{
+.cart__btn {
   background-color: #000;
   color: white;
   padding: 0.1em 3em;
 }
-.menu__cart--content{
+.menu__cart--content {
   align-items: center;
 }
-.menu__cart--vmbtn{
+.menu__cart--vmbtn {
   background-color: #eea539;
   color: #f4f7fb;
   border: none;
   border-radius: 10%;
-  padding: .1em 2em;
+  padding: 0.1em 2em;
   align-content: center;
- position: relative;
- left:48%;
- margin-top:2em ;
- margin-bottom: 2em;
+  position: relative;
+  left: 48%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.why-us{
+.why-us {
   display: flex;
-
 }
 
-.why-us--orange{
-  color:#eea539;
+.why-us--orange {
+  color: #eea539;
 }
-.why-us__content{
-  margin:2em;
+.why-us__content {
+  margin: 2em;
   background-color: #f4f7fb;
 }
 
-
-.img__background{
+.img__background {
   background-color: #000;
   /* display: flex; */
- 
 }
-.why-us__content-imagescap{
+.why-us__content-imagescap {
   /* display: flex; */
   background-color: #f4f7fb;
 }
 
-.why-us--pic{
+.why-us--pic {
   display: flex;
   padding: 2em;
 }
 
-.help p{
+.help p {
   text-align: center;
 }
-.help__contacts{
+.help__contacts {
   /* display: flex; */
   background-color: #f4f7fb;
 }
 
-.help__info{
-display: flex;
-justify-content:space-around;
-margin: 2em;
-padding:2em 6em;
-align-content: center;
+.help__info {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+  padding: 2em 6em;
+  align-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+  }
+  .menu__list{
+    display: inline-block;
+  }
+  .menu div{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu__cart--vmbtn{
+    align-content: center;
+  }
 }
