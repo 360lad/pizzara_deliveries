@@ -110,6 +110,12 @@
     flex-direction: column;
   }
   .menu__cart--vmbtn{
-    align-content: center;
+    justify-content: center;
+  }
+  .why-us img{
+     width: 100%;
+  }
+  .why-us div{
+    padding:2em;
   }
 }
