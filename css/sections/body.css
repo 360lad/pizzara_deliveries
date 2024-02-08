@@ -95,7 +95,7 @@
   align-content: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 815px) {
   .menu {
 
     display: flex;
@@ -110,12 +110,21 @@
     flex-direction: column;
   }
   .menu__cart--vmbtn{
-    justify-content: center;
+    align-self: center;
+  } 
+  .why-us{
+    font-size: smaller;
   }
   .why-us img{
      width: 100%;
+     display: flex;
+     flex-direction: column;
   }
   .why-us div{
-    padding:2em;
+    width: 100%;
+    padding:3em;
+  }
+  .why-us-bottom{
+    align-content: center;
   }
 }
