@@ -110,9 +110,7 @@ h1 {
   .hero-right {
     display: none;
   }
-  .hero img {
-    /* width: 100%; */
-  }
+
   .hero p {
     display: block;
   }
