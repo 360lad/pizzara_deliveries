@@ -65,8 +65,9 @@
   color: #eea539;
 }
 .why-us__content {
-  margin: 2em;
+  margin-right: 3em;
   background-color: #f4f7fb;
+  padding: 4em;
 }
 
 .img__background {
@@ -89,6 +90,8 @@
 .help__contacts {
   /* display: flex; */
   background-color: #f4f7fb;
+  text-align: center;
+  padding: 2em;
 }
 
 .help__info {
@@ -98,8 +101,12 @@
   padding: 2em 6em;
   align-content: center;
 }
+
+.help-details {
+  align-items: center;
+}
 .help-details img {
-  justify-content: center;
+  align-content: center;
 }
 .help-font {
   font-size: 3em;
