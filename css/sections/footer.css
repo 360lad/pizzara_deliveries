@@ -24,7 +24,7 @@
 }
 
 .footer__btn {
-  padding: 3em 3em;
+  padding: 3em 2em;
   background-color: #eea359;
   color: #fff;
   border: none;
@@ -48,7 +48,7 @@
   align-items: center;
 }
 .footer-searchbar {
-  padding: 3em 3em;
+  padding: 3em 2em;
   border: none;
   outline: none;
 }
