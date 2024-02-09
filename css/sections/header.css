@@ -8,9 +8,9 @@
 }
 .central-header ul li {
   list-style-type: none;
-  /* margin-right: 2em; */
   display: inline-block;
   text-transform: capitalize;
+  padding: 1em 2em;
 }
 .central-header ul li a {
   text-decoration: none;

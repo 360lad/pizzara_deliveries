@@ -21,6 +21,7 @@
 .menu__cart {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 3em;
 }
 
 .menu__cart--img1 img {
@@ -37,7 +38,7 @@
 .cart__btn {
   background-color: #000;
   color: white;
-  padding: 0.1em 3em;
+  padding: 1em 3em;
 }
 .menu__cart--content {
   align-items: center;
@@ -47,7 +48,7 @@
   color: #f4f7fb;
   border: none;
   border-radius: 10%;
-  padding: 0.1em 2em;
+  padding: 1em 3em;
   align-content: center;
   position: relative;
   left: 48%;
@@ -94,6 +95,10 @@
 
 .why-us--pic h3 {
   margin: 1em;
+}
+
+.help {
+  margin-top: 5em;
 }
 .help p {
   text-align: center;
@@ -175,6 +180,7 @@
   .why-us__main-image {
     display: none;
   }
+
   .help__info {
     display: flex;
     flex-wrap: wrap;
@@ -186,5 +192,8 @@
   }
   footer {
     width: 100%;
+  }
+  .menu__cart--vmbtn {
+    display: none;
   }
 }
