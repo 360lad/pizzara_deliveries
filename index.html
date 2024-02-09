@@ -52,8 +52,8 @@
           country .
         </p>
         <p>Search for your favourite pizza topings here.</p>
-<div class="main-searchbar">
-        <div style="display: flex; align-items: center">
+
+        <div class="main-searchbar" style="display: flex; align-items: center">
           <div class="searchbar-container">
             <i class="fa-solid fa-magnifying-glass fa-2x"></i>
             <input class="hero-searchbar" placeholder="Find pizza type" />
@@ -62,7 +62,7 @@
             <button class="btn">Search</button>
           </div>
         </div>
-</div>
+
         <div class="hero-left__images--container">
           <div class="hero-left__images">
             <div class="hero-left__pics1">
@@ -81,8 +81,7 @@
         </div>
       </div>
 
-      <div class="hero-right">
-      </div>
+      <div class="hero-right"></div>
     </section>
 
     <section class="menu">
@@ -134,34 +133,38 @@
       </div>
     </section>
     <section>
-  
-        <div class="why-us">
-          <div class="why-us__main-image">
-            <img src="images/why-us.png" alt="a man in the kitchenwith a pan" />
-          </div>
-          <div>
+      <div class="why-us">
+        <div class="why-us__main-image">
+          <img src="images/why-us.png" alt="a man in the kitchenwith a pan" />
+        </div>
+        <div>
+          <div class="why-us__paragraph">
             <p class="why-us--orange">why us</p>
-            <h2>why we are <span class="why-us--orange">the best</span></h2>
-            <p>We always try to maintain our food quality for our customers.</p>
-            <p>Our customers' satisfaction is our top priority</p>
-            <div class="why-us__content">
-              <div class="why-us__content-imagescap">
-                <div class="why-us--pic">
-                  <img
-                    class="img__background"
-                    src="images/fresh-pizza.png"
-                    alt="apizza icon image"
-                    width="50px"
-                  />
-                
-                
-                  <h3>Fresh pizza</h3>
-                  <p>
-                    We make our pizza to suit your needs as we use the best
-                    quality ingiridients
-                  </p>
-                </div>
-              
+            <div class="why-us__text">
+              <h2>why we are <span class="why-us--orange">the best</span></h2>
+              <p>
+                We always try to maintain our food quality for our customers.
+              </p>
+              <p>Our customers' satisfaction is our top priority</p>
+            </div>
+          </div>
+          <div class="why-us__content">
+            <div class="why-us__content-imagescap">
+              <div class="why-us--pic">
+                <img
+                  class="img__background"
+                  src="images/fresh-pizza.png"
+                  alt="apizza icon image"
+                  width="50px"
+                />
+
+                <h3>Fresh pizza</h3>
+                <p>
+                  We make our pizza to suit your needs as we use the best
+                  quality ingiridients
+                </p>
+              </div>
+
               <div class="why-us--pic">
                 <img
                   class="img__background"
@@ -169,8 +172,7 @@
                   alt="fastdelivery icon"
                   width="50px"
                 />
-              
-              
+
                 <h3>Fast delivery</h3>
                 <p>
                   Through rapid delivery we provide a high level of customer
@@ -185,19 +187,17 @@
                   alt="quality icon"
                   width="50px"
                 />
-              
-              
+
                 <h3>Best Quality</h3>
                 <p>
                   Our delivery services that is available at anytime and usually
                   everyday
                 </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
-      
+      </div>
     </section>
     <section class="help-top">
       <div class="help">
@@ -245,7 +245,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
       <div class="footer-container">
         <div class="footer__logos">
           <div>
@@ -273,7 +273,10 @@
             <h2>Subscribe to our Newslater to stay updated</h2>
           </div>
           <div>
-            <div style="display: flex; align-items: center">
+            <div
+              class="main-footer__searchbar"
+              style="display: flex; align-items: center"
+            >
               <div class="subscriber__container">
                 <input class="footer-searchbar" placeholder="Email Adress" />
               </div>

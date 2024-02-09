@@ -19,8 +19,6 @@
 }
 /* .footer__subscription{ */
 
-
-
 .footer__subscription {
   color: #fff;
 }
@@ -58,6 +56,20 @@
 }
 @media screen and (max-width: 814px) {
   .footer {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .footer logo {
+    flex: 1;
+  }
+  .footer__links {
+    flex: 1;
+  }
+  .footer-main__searchbar {
+    flex: 1;
+  }
+  .footer-searchbar {
+    flex: 1;
   }
 }

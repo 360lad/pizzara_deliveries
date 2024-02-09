@@ -63,6 +63,13 @@
 
 .why-us--orange {
   color: #eea539;
+  margin-left: 2em;
+  margin-bottom: 4em;
+}
+
+.why-us__text {
+  margin-left: 2em;
+  margin-bottom: 4em;
 }
 .why-us__content {
   margin-right: 3em;
@@ -81,9 +88,14 @@
 
 .why-us--pic {
   display: flex;
-  padding: 2em;
+  padding: 2.6em;
+  background-color: #fff;
+  margin-bottom: 3em;
 }
 
+.why-us--pic h3 {
+  margin: 1em;
+}
 .help p {
   text-align: center;
 }
@@ -120,9 +132,7 @@
   }
 
   .menu__list {
-    width: 100%;
-    display: inline-block;
-    justify-content: center;
+    display: none;
   }
   .menu__list ul {
     width: 100%;
@@ -131,7 +141,7 @@
   }
   .menu div {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -147,9 +157,12 @@
     display: flex;
     flex-direction: column;
   }
-  /* .why-us img { */
-  /* width: 100%; */
-  /* } */
+
+  .why-us__paragraph {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
   .why-us--pic {
     width: 100%;
