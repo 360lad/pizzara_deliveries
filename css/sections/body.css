@@ -5,13 +5,12 @@
   list-style-type: none;
   border-bottom: 10px solid gray;
   text-align: center;
+  margin-bottom: 2em;
 }
 .menu__list li {
   display: inline-block;
-  padding-right: 4em;
-  padding-left: 4em;
+  padding: 2em 4em;
   text-align: center;
-  /* border-bottom:10px solid gray; */
 }
 .menu__list li:hover {
   /* background-color:#eea539; */
