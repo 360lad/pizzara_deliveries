@@ -14,20 +14,19 @@
 .central-header ul li a {
   text-decoration: none;
   color: black;
-  padding: 1em;
- 
+  padding: 3em 1em;
 }
 .central-header ul li:hover {
   background-color: #eea539;
-  
+  /* padding: 1em; */
 }
 
-.central-header ul li a:hover{
-    color: #fff;
+.central-header ul li a:hover {
+  color: #fff;
 }
 
-.right-header i{
-    display:none;
+.right-header i {
+  display: none;
 }
 /* Media Queries */
 
@@ -35,8 +34,8 @@
   .central-header__navlist {
     display: none;
   }
-  .right-header i{
-    display:inline-block;
+  .right-header i {
+    display: inline-block;
   }
   .header {
     display: flex;
