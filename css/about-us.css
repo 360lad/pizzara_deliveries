@@ -1,3 +1,9 @@
-.aboutus-info{
-    display: flex;
+.aboutus-info {
+  display: flex;
+}
+.aboutus-text h1 {
+  color: #eea539;
+}
+.aboutus-text {
+  margin: 2em;
 }
