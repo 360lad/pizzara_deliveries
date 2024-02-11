@@ -113,6 +113,9 @@ h1 {
   .hero-searchbar {
     flex: 1;
   }
+  .searchbar-container{
+    flex:1;
+  }
   .btn {
     flex: 1;
   }
